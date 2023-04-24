@@ -1,0 +1,34 @@
+<<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta Track Meet (Usa Europe)="description" content="">
+        <meta Track Meet (Usa Europe)="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div id="game-container"></div>
+<center>
+    <div style="width:100%;height:100%;max-width:100%;">
+<div id="game"></div>
+    <script>
+    EJS_player = "#game";
+    EJS_gambatte = "gambatte"; // Default to NES gambatte if gambatte type is not specified
+    EJS_gameName = "Track Meet (Usa Europe)";
+    EJS_color = "#0064ff";
+    EJS_startOnLoaded = false;
+    EJS_pathtodata = "./data/";
+    EJS_gameUrl = "/Track_Meet_(USA_Europe).7z";
+        
+
+    if (!EJS_gameUrl) {
+        console.error('No game ROM specified.');
+    }
+</script>
+<script src="./data/loader.js"></script>
+</center>
+</div>
+    </body>
+</html>

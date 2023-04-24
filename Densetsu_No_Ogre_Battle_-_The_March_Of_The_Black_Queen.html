@@ -1,0 +1,34 @@
+<<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta Densetsu No Ogre Battle - The March Of The Black Queen="description" content="">
+        <meta Densetsu No Ogre Battle - The March Of The Black Queen="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div id="game-container"></div>
+<center>
+    <div style="width:100%;height:100%;max-width:100%;">
+<div id="game"></div>
+    <script>
+    EJS_player = "#game";
+    EJS_snes9x = "snes9x"; // Default to NES snes9x if snes9x type is not specified
+    EJS_gameName = "Densetsu No Ogre Battle - The March Of The Black Queen";
+    EJS_color = "#0064ff";
+    EJS_startOnLoaded = false;
+    EJS_pathtodata = "./data/";
+    EJS_gameUrl = "/Densetsu_no_Ogre_Battle_-_The_March_of_the_Black_Queen.zip";
+        
+
+    if (!EJS_gameUrl) {
+        console.error('No game ROM specified.');
+    }
+</script>
+<script src="./data/loader.js"></script>
+</center>
+</div>
+    </body>
+</html>
